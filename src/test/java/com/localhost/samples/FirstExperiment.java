@@ -7,6 +7,7 @@ public class FirstExperiment {
 		int a = 10+2;
 		System.out.println(a);
 		System.out.println(a*100);
+		//IntroducingConflicts//System.out.println("Solving conflict");
 	}
 
 }
