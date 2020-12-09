@@ -17,6 +17,11 @@ Feature: Title of your feature
     Then verify there is a merge conflict
     And it needs to be fixed
 
+    Scenario: I am sample scenario
+      Given a scenario to test
+      When a given condition
+      Then verify the result
+
   @tag2
   Scenario Outline: Title of your scenario outline
     Given I want to write a step with <name>
@@ -27,3 +32,8 @@ Feature: Title of your feature
       | name  | value | status  |
       | name1 |     5 | success |
       | name2 |     7 | Fail    |
+
+      Scenario: I am sample scenario
+      Given a scenario to test
+      When a given condition
+      Then verify the result
