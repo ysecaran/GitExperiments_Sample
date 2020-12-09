@@ -11,6 +11,12 @@ Feature: Title of your feature
     Then I validate the outcomes
     And check more outcomes
     
+    Scenario: To verify merge conflict
+    Given when i write code
+    When there is code already in the same section
+    Then verify there is a merge conflict
+    And it needs to be fixed
+
     Scenario: I am sample scenario
       Given a scenario to test
       When a given condition
