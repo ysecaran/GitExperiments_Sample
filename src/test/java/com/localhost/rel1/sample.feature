@@ -10,6 +10,11 @@ Feature: Title of your feature
     And yet another action
     Then I validate the outcomes
     And check more outcomes
+    
+    Scenario: I am sample scenario
+      Given a scenario to test
+      When a given condition
+      Then verify the result
 
   @tag2
   Scenario Outline: Title of your scenario outline
@@ -21,3 +26,8 @@ Feature: Title of your feature
       | name  | value | status  |
       | name1 |     5 | success |
       | name2 |     7 | Fail    |
+
+      Scenario: I am sample scenario
+      Given a scenario to test
+      When a given condition
+      Then verify the result
