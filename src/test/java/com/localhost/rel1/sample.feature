@@ -10,6 +10,12 @@ Feature: Title of your feature
     And yet another action
     Then I validate the outcomes
     And check more outcomes
+    
+    Scenario: To verify merge conflict
+    Given when i write code
+    When there is code already in the same section
+    Then verify there is a merge conflict
+    And it needs to be fixed
 
   @tag2
   Scenario Outline: Title of your scenario outline
