@@ -10,6 +10,17 @@ Feature: Title of your feature
     And yet another action
     Then I validate the outcomes
     And check more outcomes
+    
+    Scenario: To verify merge conflict
+    Given when i write code
+    When there is code already in the same section
+    Then verify there is a merge conflict
+    And it needs to be fixed
+
+    Scenario: I am sample scenario
+      Given a scenario to test
+      When a given condition
+      Then verify the result
 
   @tag2
   Scenario Outline: Title of your scenario outline
@@ -21,6 +32,7 @@ Feature: Title of your feature
       | name  | value | status  |
       | name1 |     5 | success |
       | name2 |     7 | Fail    |
+
       
       Scenario: Title of your scenario_1
     Given I want to write a step with precondition
@@ -30,3 +42,4 @@ Feature: Title of your feature
     And yet another action
     Then I validate the outcomes
     And check more outcomes
+
