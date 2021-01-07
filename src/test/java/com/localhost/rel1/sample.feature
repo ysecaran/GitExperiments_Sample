@@ -17,7 +17,7 @@ Feature: Title of your feature
     Then verify there is a merge conflict
     And it needs to be fixed
 
-    Scenario: I am sample scenario
+    Scenario: I am sample scenario changed
       Given a scenario to test
       When a given condition
       Then verify the result
