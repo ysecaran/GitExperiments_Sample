@@ -35,7 +35,7 @@ Feature: Title of your feature
 
       
       Scenario: Title of your scenario_1
-    Given I want to write a step with precondition
+    Given I want to write a step with precondition to see if it holds
     And some other precondition
     When I complete action
     And some other action
