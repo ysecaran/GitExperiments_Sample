@@ -23,7 +23,7 @@ Feature: Title of your feature
       Then verify the result
 
   @tag2
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Changed Title of your scenario outline
     Given I want to write a step with <name>
     When I check for the <value> in step
     Then I verify the <status> in step
