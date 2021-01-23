@@ -11,6 +11,8 @@ Feature: Title of your feature
     Then I validate the outcomes
     And check more outcomes
     
+ #Just adding a comment for a commit
+    
     Scenario: To verify merge conflict and changes
     Given when i write code
     When there is code already in the same section
