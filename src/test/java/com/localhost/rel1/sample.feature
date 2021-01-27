@@ -30,9 +30,16 @@ Feature: Title of your feature - this can be a change too
     And this is step 2
     When the step 3 is reached
     Then verify step 4 is reached
-
-  @tag4
-  Scenario Outline: Another sample scenario
+    
+     @tag4
+    Scenario Outline: Another sample scenario
+    Given this is step 1
+    And this is step 2
+    When the step 3 is reached
+    Then verify step 4 is reached
+    
+    @tag5
+    Scenario Outline: Another sample scenario
     Given this is step 1
     And this is step 2
     When the step 3 is reached
