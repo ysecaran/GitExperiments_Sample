@@ -1,5 +1,5 @@
 Feature: Title of your feature - this can be a change too
-  I want to use this template for my feature file
+  I want to use this template for my feature file to prac git
 
   @tag1
   Scenario: Title of your scenario changed from AUT-0001
