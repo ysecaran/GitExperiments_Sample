@@ -32,6 +32,7 @@ Feature: Title of your feature - this can be a change too
     Examples: 
       | name  | value | status  |
       | name1 |     5 | success |
+      | name1 |     6 | fail |
 
   @tag3
   Scenario Outline: Another sample scenario
