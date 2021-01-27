@@ -9,6 +9,7 @@ public class FirstExperiment {
 		System.out.println(a*100);
 		//IntroducingConflicts//System.out.println("Solving conflict");
 		System.out.println("Adding new line");
+		System.out.println("Adding new line_2");
 	}
 
 }
