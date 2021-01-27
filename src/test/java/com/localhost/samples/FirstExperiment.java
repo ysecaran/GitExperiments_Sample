@@ -15,4 +15,7 @@ public class FirstExperiment {
 		System.out.println("Adding new line_5");
 	}
 
+	private static void clean() {
+		
+	}
 }
