@@ -10,6 +10,8 @@ public class FirstExperiment {
 		//IntroducingConflicts//System.out.println("Solving conflict");
 		System.out.println("Adding new line");
 		System.out.println("Adding new line_2");
+		System.out.println("Adding new line_3");
+		System.out.println("Adding new line_4");
 	}
 
 }
