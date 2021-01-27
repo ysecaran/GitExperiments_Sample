@@ -30,7 +30,7 @@ Feature: Title of your feature - this can be a change too
     When the step 3 is reached
     Then verify step 4 is reached
     
-     @tag4
+    @tag5
     Scenario Outline: Another sample scenario
     Given this is step 1
     And this is step 2
