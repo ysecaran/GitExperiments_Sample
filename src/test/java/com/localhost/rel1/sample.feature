@@ -1,6 +1,6 @@
 Feature: Title of your feature - this can be a change too
   I want to use this template for my feature file to prac git
-
+  
   #Just adding a comment for a commit
   Scenario: To verify merge conflict and changes
     Given when i write code
