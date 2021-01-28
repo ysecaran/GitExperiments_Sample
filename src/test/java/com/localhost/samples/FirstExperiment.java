@@ -18,4 +18,8 @@ public class FirstExperiment {
 	private static void clean() {
 		
 	}
+	
+	private static void clean_1() {
+		
+	}
 }
