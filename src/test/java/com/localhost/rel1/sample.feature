@@ -24,7 +24,7 @@ Feature: Title of your feature - this can be a change too
       | name1 |     5 | success |
 
   @tag3
-  Scenario Outline: Another sample scenario
+  Scenario Outline: Another sample scenario_editing to introduce change
     Given this is step 1
     And this is step 2
     When the step 3 is reached
